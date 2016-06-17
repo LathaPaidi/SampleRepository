@@ -17,6 +17,8 @@ namespace CalculatorApp
       Console.WriteLine("Result:" + c2);
       int c3 = cl.Multiply(3, 4);
       Console.WriteLine("Result:" + c3);
+      int c4 = cl.Divide(4, 1);
+      Console.WriteLine("Result:" + c4);
       Console.ReadLine();
     }
   }
