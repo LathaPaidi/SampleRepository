@@ -24,6 +24,9 @@ namespace CalculatorLib
     {
       return a - b;
     }
-
+    public string GetString()
+    {
+      return "Hello World";
+}
   }
 }
