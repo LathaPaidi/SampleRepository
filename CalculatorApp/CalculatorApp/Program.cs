@@ -15,6 +15,9 @@ namespace CalculatorApp
       Calculator cl = new Calculator();
       int c2 = cl.Add(2,3);
       Console.WriteLine("Result:" + c2);
+      int c3 = cl.Multiply(3, 4);
+      Console.WriteLine("Result:" + c3);
+      Console.ReadLine();
     }
   }
 }
